@@ -6,7 +6,7 @@ export default {
 
     return {
 
-      message : 'hello vite'
+      message : 'My first app with Vite!'
 
     }
 
@@ -17,9 +17,9 @@ export default {
 
 <template>
 
-  <p>
+  <h1>
     {{ message }}
-  </p>
+  </h1>
   
 </template>
 
