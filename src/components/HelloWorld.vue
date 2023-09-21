@@ -1,14 +1,29 @@
 <script>
 
 export default {
-  message : 'hello vite'
+
+  data() {
+
+    return {
+
+      message : 'hello vite'
+
+    }
+
+  }
+
 }
-
-
-
 </script>
 
 <template>
+
+  <h1>
+    {{ message }}
+  </h1>
+
+  <p>
+    {{ message }}
+  </p>
   
 </template>
 
